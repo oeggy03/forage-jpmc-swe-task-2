@@ -29,7 +29,7 @@ class DataStreamer {
       if (request.status === 200) {
         callback(JSON.parse(request.responseText));
       } else {
-        alert ('Request failed');
+        alert('Request failed');
       }
     }
 
